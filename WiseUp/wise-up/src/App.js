@@ -1,39 +1,48 @@
 import React from 'react';
+import StartSession from './components/StartSession.js';
 
 function App() {
   return (
     // this will be majority of the HTML
     <div className="App">
-    <body>
-        <header>
-            <h1>WiseUp study buddie</h1>
-            <div>
-                <p>The app that helps you stay motivated</p>
+      <body>
+      <div class="header">
+        <h1>WiseUp</h1>
+        <p>Productivity Reflection: Quality over Quantity</p>
+        </div>
+
+    <div class="topnav">
+      <a>Home</a>
+      <a>Sessions</a>
+      <a>Reflection Summary</a>
+    </div>
+
+    <div class="wrapper">
+      <div class="column">
+      <b>Inspirational Notifications</b>
+        <br/>
+          <div class="NotificationsContainer">
+            <div class="NotificationCards">
+              <b> Start </b>
             </div>
-        </header>
-
-        <main>
-            <div>
-                <p>This is for the main content and directions for users</p>
+          </div>
+      </div>
+      <div class="column">
+        <b>Get Started!</b>
+          <br/>
+          <div class="StartContainer">
+            <div class="StartSession">
+              <b> Start </b>
             </div>
-
-        </main>
-
-        <nav>
-            <div>
-                <p>Navigation</p>
+            <div class="StartSession">
+              <b> Stop </b>
             </div>
-        </nav>
+          </div>
+      </div>
+    </div>
 
-        <aside>
-            <div>
-                <p>Changes and updates</p>
-            </div>
-        </aside>
 
-        <footer>
-            <p> Author: LYC</p>
-        </footer>
+
     </body>
     </div>
   );
