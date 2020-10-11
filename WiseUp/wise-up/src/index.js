@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './styles/core.css'
-import './styles/StartSession.css';
-import './styles/Notifications.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

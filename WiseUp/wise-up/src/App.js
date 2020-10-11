@@ -1,49 +1,48 @@
 import React from 'react';
+import './styles/core.css'
+import './styles/StartSession.css';
+import './styles/Notifications.css';
+import './styles/ReflectionRow.css';
+import './styles/Summary.css';
 import StartSession from './components/StartSession.js';
+import Reflection from './components/Reflection.js';
+import Summary from './components/Summary.js';
+import Notifications from './components/Notifications.js';
+
 
 function App() {
+
+
+
   return (
     // this will be majority of the HTML
     <div className="App">
-      <body>
-      <div class="header">
+      <div className="header">
         <h1>WiseUp</h1>
-        <p>Productivity Reflection: Quality over Quantity</p>
+        <p>Reflect and motivate yourself along your journey to healthy productivity</p>
         </div>
 
-    <div class="topnav">
+    <div className="topnav">
       <a>Home</a>
       <a>Sessions</a>
       <a>Reflection Summary</a>
     </div>
 
-    <div class="wrapper">
-      <div class="column">
+    <div className="wrapper">
+      <div className="column">
       <b>Inspirational Notifications</b>
         <br/>
-          <div class="NotificationsContainer">
-            <div class="NotificationCards">
-              <b> Start </b>
-            </div>
-          </div>
+          <Notifications/>
       </div>
-      <div class="column">
-        <b>Get Started!</b>
+      <div className="column">
+        <b>Start a Session!</b>
           <br/>
-          <div class="StartContainer">
-            <div class="StartSession">
-              <b> Start </b>
-            </div>
-            <div class="StartSession">
-              <b> Stop </b>
-            </div>
-          </div>
+          <StartSession/>
       </div>
     </div>
+    <Reflection/>
+    <Summary/>
 
-
-
-    </body>
     </div>
   );
 }

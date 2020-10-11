@@ -1,0 +1,21 @@
+.ReflectionRow {
+  width: inherit;
+  background-color: #483030;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width:99%;
+  height: 400px;
+  position: relative;
+  padding-top: 20px;
+
+}
+
+.ReflectionHeading {
+  padding-left: 15px;
+  font-size: 25px;
+  font-family: "Avenir Next";
+}
