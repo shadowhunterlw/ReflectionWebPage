@@ -1,0 +1,19 @@
+.updatesMessage {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  font-family: "Avenir Next";
+  padding: 10px;
+  line-height: normal;
+}
+.messageDivider {
+  text-align: left;
+  padding-top: .7rem;
+  color: #9F9DA2;;
+  font-size: 14px;
+}
+
+.lineDivider {
+  border-radius: 5px;
+  border-bottom: 4px solid #483030;
+}

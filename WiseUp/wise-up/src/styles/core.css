@@ -1,0 +1,38 @@
+body{
+  font-family: "Avenir Next";
+  padding: 10px;
+  background: #FCCCA8
+}
+.header {
+  background-color: #F1F1F1;
+  text-align: left;
+  padding: 10px;
+}
+/* The navbar container -> woody brown color*/
+.topnav {
+  overflow: hidden;
+  background-color: #483030;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  flex:1;
+  flex-direction: "row";
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}

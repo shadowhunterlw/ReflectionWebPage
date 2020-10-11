@@ -1,0 +1,112 @@
+.StartContainer {
+  width: inherit;
+  background-color: #FFFFFF;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  width:100%;
+  height: 400px;
+  position: relative;
+  padding-left: 5px;
+  padding-top: 5px;
+
+}
+
+.FormContainer {
+   width: 100%;
+   height: 100%;
+   padding: 10px 20px;;
+   margin: 20px 0;
+   display: inline-block;
+   border: 2px solid #ccc;
+   box-sizing: border-box;
+   border-radius: 15px;
+   font-size: 12px;
+   color: steelblue;
+   background-color: peachpuff;
+   font-family: "Avenir Next";
+
+}
+
+.session {
+    width: 90%;
+    padding: 10px 50px;
+    margin: 20px 0;
+    display: block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 35px;
+    border-bottom-color: darkblue;
+    font-size: 16px;
+    background-color: lightblue;
+    font-family: "Avenir Next";
+}
+
+.session_input {
+    width: 90%;
+    height: 20%;
+}
+
+.session_input_num {
+    width: 20%;
+}
+
+.StartButton {
+  background-color: #483030;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Avenir Next";
+}
+
+.StopButton {
+  background-color: #483030;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Avenir Next";
+}
+
+.SubmitButton{
+  background-color: #483030;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Avenir Next";
+}
+
+#button {
+    border-radius: 3px;
+}
+
+#reason {
+    border-radius: 5px;
+}
+
+#time {
+    border-radius: 5px;
+}
+
+#feeling {
+    border-radius: 5px;
+}
