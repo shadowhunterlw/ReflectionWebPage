@@ -3,6 +3,7 @@ import './styles/core.css'
 import './styles/StartSession.css';
 import './styles/Notifications.css';
 import './styles/ReflectionRow.css';
+import './styles/ReflectionCards.css';
 import './styles/Summary.css';
 import StartSession from './components/StartSession.js';
 import Reflection from './components/Reflection.js';

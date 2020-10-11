@@ -1,4 +1,7 @@
 import React from 'react';
+// child
+//import ReflectionUpdates from './ReflectionCards.js';
+//import Reflection from './Reflection.js';
 
 export default class StartSession extends React.Component {
   constructor(props){
@@ -16,9 +19,6 @@ export default class StartSession extends React.Component {
 
   }
 
-  componentDidMount(){
-
-  }
   /*startTimer() {
     // start global timer here
     setInterval(() => {
@@ -119,7 +119,6 @@ export default class StartSession extends React.Component {
   }
 
   render() {
-    console.log('tiggered during render');
     return (
       <div className="StartContainer">
           <div className="session_container_blue">
